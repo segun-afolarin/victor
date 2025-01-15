@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: greenyellow;
+    color: #333;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo h1 {
+    font-size: 28px;
+}
+
+header .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .nav-links li {
+    font-size: 18px;
+}
+
+header .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+header .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: orange;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .btn {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #e6b800;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.programs-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.program {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white;
+    width: 30%;
+    text-align: center;
+}
+
+.program h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    justify-content: center;
+}
+
+.carousel-item {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
